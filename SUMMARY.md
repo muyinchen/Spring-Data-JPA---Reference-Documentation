@@ -11,4 +11,5 @@
     * [4.Working with Spring Data Repositories](working-with-spring-data-repositories.md)
         * [4.1.核心概念](41核心概念.md)
         * [4.2. 查询方法](42-查询方法.md)
+        * [4.3. 定义repository接口](43-定义repository接口.md)
 
