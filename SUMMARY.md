@@ -12,4 +12,5 @@
         * [4.1.核心概念](41核心概念.md)
         * [4.2. 查询方法](42-查询方法.md)
         * [4.3. 定义repository接口](43-定义repository接口.md)
+            * [4.3.1. 调整repository定义](431-调整repository定义.md)
 
