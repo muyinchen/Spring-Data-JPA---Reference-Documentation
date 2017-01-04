@@ -17,3 +17,10 @@
   </dependencies>
 </dependencyManagement>
 ```
+
+当前版本是`Kay-M1`。 版本号是按字母顺序升序，目前可用的[如下](https://github.com/spring-projects/spring-data-commons/wiki/Release-planning)。 版本名称遵循以下模式：`$ {name} - $ {release}`其中release可以是以下之一：
+- `BUILD-SNAPSHOT` - current snapshots
+- `M1`, `M2` etc. - 里程碑
+- `RC1`, `RC2` etc. - 发布候选版本
+- `RELEASE` - GA release
+- `SR1`, `SR2` etc. - service releases `服务版本`
