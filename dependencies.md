@@ -24,3 +24,15 @@
 - `RC1`, `RC2` etc. - 发布候选版本
 - `RELEASE` - GA release
 - `SR1`, `SR2` etc. - service releases `服务版本`
+
+使用BOM的工作示例可以在我们的[Spring Data示例库](https://github.com/spring-projects/spring-data-examples/tree/master/bom)中找到。 如果这是在原地声明Spring数据模块，你想使用没有版本的`<dependencies/>`块。
+
+示例2.声明对Spring Data模块的依赖性
+```xml
+<dependencies>
+  <dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-jpa</artifactId>
+  </dependency>
+<dependencies>
+```
