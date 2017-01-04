@@ -21,3 +21,9 @@ interface UserRepository extends MyBaseRepository<User, Long> {
   User findByEmailAddress(EmailAddress emailAddress);
 }
 ```
+在这个第一步，你为所有的实体类repositories定义了一个公共基础接口并暴露了`findOne（...）`和`save（...）`方法。这些方法将通过Spring Data路由到您选择的存储库的基础仓库实现，例如JPA`SimpleJpaRepository`，因为他们在`CrudRepository匹配到这些方法签名`。 所以'UserRepository`现在可以保存用户，并通过id找到单个，同样的也可以通过他们的邮件地址查
+询找到这些用户。
+
+| **   | 注意，中间repository接口注释为`@ NoRepositoryBean`。 确保将该注解添加到所有repository interfaces，Spring Data不应在运行时创建实例. |
+| ---- | ---------------------------------------- |
+|      |                                          |
