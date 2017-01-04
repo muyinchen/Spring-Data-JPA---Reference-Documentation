@@ -7,4 +7,5 @@
         * [2.1. What’s new in Spring Data JPA 1.10](21-whats-new-in-spring-data-jpa-110.md)
     * [3. Dependencies](dependencies.md)
         * [3.1. 使用Spring Boot的依赖管理](31-使用spring-boot的依赖管理.md)
+        * [3.2. Spring Framework](32-spring-framework.md)
 
