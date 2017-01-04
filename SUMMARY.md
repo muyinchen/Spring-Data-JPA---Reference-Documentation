@@ -8,5 +8,6 @@
     * [3. Dependencies](dependencies.md)
         * [3.1. 使用Spring Boot的依赖管理](31-使用spring-boot的依赖管理.md)
         * [3.2. Spring Framework](32-spring-framework.md)
-    * 4. Working with Spring Data Repositories
+    * [4.Working with Spring Data Repositories](working-with-spring-data-repositories.md)
+        * [4.1.核心概念](41核心概念.md)
 
